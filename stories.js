@@ -5,7 +5,7 @@ const router = express.Router();
 const path = require("path");
 const fs = require("fs");
 
-const STORIES_DIR = path.join(__dirname, "../../stories");
+const STORIES_DIR = __dirname;
 
 // GET /stories — return the story index
 router.get("/", (req, res) => {
