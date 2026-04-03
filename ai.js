@@ -3,7 +3,7 @@
 const express = require("express");
 const router = express.Router();
 
-const openaiService = require("../services/openaiService");
+const openaiService = require("./openaiService");
 const promptBuilder = require("../services/promptBuilder");
 const guardrails = require("../services/guardrails");
 const validate = require("./validate");
