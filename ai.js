@@ -2,11 +2,11 @@
 
 const express = require("express");
 const router = express.Router();
-const { validate } = require("../middleware/validate");
+
 const openaiService = require("../services/openaiService");
 const promptBuilder = require("../services/promptBuilder");
 const guardrails = require("../services/guardrails");
-
+const validate = require("./validate");
 // POST /ai/explain-word
 router.post("/explain-word", validate(["word", "sentence", "storyId"]), async (req, res) => {
   const { word, sentence, storyId } = req.body;
