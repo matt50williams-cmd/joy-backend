@@ -1,0 +1,74 @@
+{
+  "id": "david-and-goliath-l1",
+  "title": "David and Goliath",
+  "scriptureReference": "1 Samuel 17",
+  "readingLevel": "level-1",
+  "summary": "A giant warrior named Goliath scared everyone in Israel. A young shepherd boy named David trusted God and stood up to him.",
+  "lessonTheme": "We can be brave because God is with us.",
+  "discussionBoundaries": "This story includes a battle where someone is killed. Language is kept gentle, but parents may wish to prepare younger children.",
+  "sentences": [
+    { "id": 1,  "text": "The Philistine army and the Israelite army faced each other on two hills.", "highlightWords": ["Philistine", "Israelite"] },
+    { "id": 2,  "text": "Every day, a giant warrior named Goliath walked out and shouted at the Israelites.", "highlightWords": ["Goliath"] },
+    { "id": 3,  "text": "Goliath was over nine feet tall and wore heavy armor from head to toe.", "highlightWords": ["armor"] },
+    { "id": 4,  "text": "He shouted, \"Send one man to fight me! If he wins, we will be your servants.\"" },
+    { "id": 5,  "text": "The Israelite soldiers were very afraid and no one wanted to fight him." },
+    { "id": 6,  "text": "A young shepherd boy named David came to bring food to his brothers in the army.", "highlightWords": ["shepherd"] },
+    { "id": 7,  "text": "David heard Goliath shouting and asked, \"Why is everyone afraid of him?\"" },
+    { "id": 8,  "text": "King Saul heard that David wanted to fight Goliath and was surprised." },
+    { "id": 9,  "text": "David said, \"God helped me protect my sheep from lions and bears. He will help me now too.\"" },
+    { "id": 10, "text": "King Saul gave David heavy armor to wear, but it did not fit him." },
+    { "id": 11, "text": "David took it off and chose five smooth stones from a stream instead." },
+    { "id": 12, "text": "He walked toward Goliath with his sling and his stones.", "highlightWords": ["sling"] },
+    { "id": 13, "text": "Goliath laughed when he saw David and said, \"Am I a dog, that you come at me with sticks?\"" },
+    { "id": 14, "text": "David answered, \"You come with a sword, but I come in the name of the Lord.\"" },
+    { "id": 15, "text": "David ran toward Goliath, swung his sling, and the stone hit Goliath in the forehead." },
+    { "id": 16, "text": "Goliath fell to the ground, and the Israelites cheered." },
+    { "id": 17, "text": "David did not win because he was the biggest or the strongest." },
+    { "id": 18, "text": "He won because he trusted that God was with him." }
+  ],
+  "vocabulary": [
+    { "word": "Philistine", "definition": "A people who were enemies of Israel in the Bible.", "sentenceIds": [1] },
+    { "word": "Israelite", "definition": "A person from the nation of Israel, God's chosen people in the Old Testament.", "sentenceIds": [1, 2, 5, 16] },
+    { "word": "Goliath", "definition": "A very tall and powerful warrior who fought for the Philistines.", "sentenceIds": [2, 3, 4, 7, 8, 13, 15, 16] },
+    { "word": "armor", "definition": "A protective covering made of metal that soldiers wore in battle.", "sentenceIds": [3, 10] },
+    { "word": "shepherd", "definition": "A person whose job is to watch over and care for a flock of sheep.", "sentenceIds": [6] },
+    { "word": "sling", "definition": "A simple tool made of a strap used to throw stones fast and far.", "sentenceIds": [12, 15] }
+  ],
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "type": "literal",
+      "question": "What did Goliath challenge the Israelites to do every day?",
+      "answer": "He challenged them to send one man to fight him.",
+      "hint": "What did Goliath shout from the hill?"
+    },
+    {
+      "id": 2,
+      "type": "literal",
+      "question": "What did David use to fight Goliath instead of armor and a sword?",
+      "answer": "David used five smooth stones and a sling.",
+      "hint": "What did David pick up from the stream?"
+    },
+    {
+      "id": 3,
+      "type": "inferential",
+      "question": "Why do you think David was not afraid even though Goliath was huge?",
+      "answer": "David trusted that God would help him, just as God had helped him protect his sheep from wild animals.",
+      "hint": "What did David say to King Saul about lions and bears?"
+    },
+    {
+      "id": 4,
+      "type": "inferential",
+      "question": "Why did David say he came in the name of the Lord instead of bragging about himself?",
+      "answer": "David's confidence came from God, not from his own strength.",
+      "hint": "What made David different from the soldiers who were scared?"
+    },
+    {
+      "id": 5,
+      "type": "personal-response",
+      "question": "Has there ever been something that felt too big or scary for you? What helped you feel brave?",
+      "answer": "Open-ended. Look for the child connecting the idea of getting help from God or a trusted person rather than facing something alone.",
+      "hint": null
+    }
+  ]
+}

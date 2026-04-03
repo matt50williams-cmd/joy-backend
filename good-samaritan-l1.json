@@ -1,0 +1,75 @@
+{
+  "id": "good-samaritan-l1",
+  "title": "The Good Samaritan",
+  "scriptureReference": "Luke 10:25–37",
+  "readingLevel": "level-1",
+  "summary": "A man was hurt on the road and needed help. Jesus told this story to show us what it really means to love our neighbor.",
+  "lessonTheme": "We show love by helping people in need, even when it costs us something.",
+  "discussionBoundaries": "The story involves a man who is beaten and left injured. Language is gentle, but parents may want to reassure younger children that the man is helped and cared for.",
+  "sentences": [
+    { "id": 1,  "text": "One day, a man asked Jesus, \"Who is my neighbor?\"" },
+    { "id": 2,  "text": "Jesus answered with a story." },
+    { "id": 3,  "text": "A man was traveling from Jerusalem to Jericho when robbers attacked him.", "highlightWords": ["Jerusalem", "Jericho"] },
+    { "id": 4,  "text": "They took everything he had and left him hurt on the side of the road." },
+    { "id": 5,  "text": "A priest came walking down the same road.", "highlightWords": ["priest"] },
+    { "id": 6,  "text": "When the priest saw the hurt man, he crossed to the other side and kept walking." },
+    { "id": 7,  "text": "Next, a Levite came by and saw the man.", "highlightWords": ["Levite"] },
+    { "id": 8,  "text": "The Levite also crossed to the other side and kept walking." },
+    { "id": 9,  "text": "Then a Samaritan came traveling down the road.", "highlightWords": ["Samaritan"] },
+    { "id": 10, "text": "When the Samaritan saw the hurt man, his heart felt sorry for him." },
+    { "id": 11, "text": "He went over to the man and carefully bandaged his wounds.", "highlightWords": ["bandaged", "wounds"] },
+    { "id": 12, "text": "He put the man on his own donkey and took him to an inn.", "highlightWords": ["inn"] },
+    { "id": 13, "text": "At the inn, the Samaritan paid for the man's care and promised to repay any extra cost.", "highlightWords": ["repay"] },
+    { "id": 14, "text": "Jesus asked, \"Which of these three do you think was a neighbor to the hurt man?\"" },
+    { "id": 15, "text": "The man answered, \"The one who helped him.\"" },
+    { "id": 16, "text": "Jesus said, \"Go and do the same.\"" }
+  ],
+  "vocabulary": [
+    { "word": "Jerusalem", "definition": "An important city in Israel where the Temple was located.", "sentenceIds": [3] },
+    { "word": "Jericho", "definition": "A city near Jerusalem connected by a road through the desert.", "sentenceIds": [3] },
+    { "word": "priest", "definition": "A religious leader who worked at the Temple and led worship.", "sentenceIds": [5, 6] },
+    { "word": "Levite", "definition": "A person from the tribe of Levi who helped with religious duties at the Temple.", "sentenceIds": [7, 8] },
+    { "word": "Samaritan", "definition": "A person from the region of Samaria. In Jesus's time, Samaritans and Israelites often did not get along.", "sentenceIds": [9, 10, 11, 12, 13] },
+    { "word": "bandaged", "definition": "Wrapped a wound with cloth to help it stop bleeding and begin to heal.", "sentenceIds": [11] },
+    { "word": "wounds", "definition": "Injuries on the body caused by being hurt.", "sentenceIds": [11] },
+    { "word": "inn", "definition": "A place where travelers could stay and rest for a night.", "sentenceIds": [12, 13] },
+    { "word": "repay", "definition": "To pay someone back for something they spent or gave.", "sentenceIds": [13] }
+  ],
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "type": "literal",
+      "question": "What happened to the man who was traveling on the road?",
+      "answer": "Robbers attacked him, took his things, and left him hurt on the side of the road.",
+      "hint": "What did the robbers do to him?"
+    },
+    {
+      "id": 2,
+      "type": "literal",
+      "question": "What did the Samaritan do when he saw the hurt man?",
+      "answer": "He bandaged his wounds, put him on his donkey, brought him to an inn, and paid for his care.",
+      "hint": "Name at least two things the Samaritan did to help."
+    },
+    {
+      "id": 3,
+      "type": "inferential",
+      "question": "The priest and the Levite were religious leaders. Why is it surprising they walked past the hurt man?",
+      "answer": "They were expected to be good and caring people. It was surprising that they ignored someone in need while the Samaritan — not expected to help — was the one who did.",
+      "hint": "What kind of people were priests and Levites supposed to be?"
+    },
+    {
+      "id": 4,
+      "type": "inferential",
+      "question": "What do you think Jesus meant when he said your neighbor is anyone who needs your help?",
+      "answer": "A neighbor is not just someone who lives nearby or is like you — it is anyone in need of kindness.",
+      "hint": "Did the Samaritan and the hurt man know each other?"
+    },
+    {
+      "id": 5,
+      "type": "personal-response",
+      "question": "Can you think of a time you helped someone who needed it, or a time someone helped you?",
+      "answer": "Open-ended. Look for the child identifying a moment of care or kindness and connecting it to what the Samaritan did.",
+      "hint": null
+    }
+  ]
+}

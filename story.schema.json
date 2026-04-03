@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BibleStory",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "scriptureReference",
+    "readingLevel",
+    "summary",
+    "lessonTheme",
+    "sentences",
+    "vocabulary",
+    "comprehensionQuestions"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "title": { "type": "string" },
+    "scriptureReference": { "type": "string" },
+    "readingLevel": {
+      "type": "string",
+      "enum": ["level-1", "level-2", "level-3"]
+    },
+    "summary": { "type": "string" },
+    "lessonTheme": { "type": "string" },
+    "discussionBoundaries": { "type": "string" },
+    "sentences": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "required": ["id", "text"],
+        "properties": {
+          "id": { "type": "integer" },
+          "text": { "type": "string" },
+          "highlightWords": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    },
+    "vocabulary": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["word", "definition"],
+        "properties": {
+          "word": { "type": "string" },
+          "definition": { "type": "string" },
+          "sentenceIds": {
+            "type": "array",
+            "items": { "type": "integer" }
+          }
+        }
+      }
+    },
+    "comprehensionQuestions": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "question", "answer"],
+        "properties": {
+          "id": { "type": "integer" },
+          "type": {
+            "type": "string",
+            "enum": ["literal", "inferential", "personal-response"]
+          },
+          "question": { "type": "string" },
+          "answer": { "type": "string" },
+          "hint": { "type": "string" }
+        }
+      }
+    }
+  }
+}
