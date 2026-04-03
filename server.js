@@ -5,8 +5,8 @@ require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 
-const storiesRouter = require("./routes/stories");
-const aiRouter = require("./routes/ai");
+const storiesRouter = require("./stories");
+const aiRouter = require("./ai");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
